@@ -12,7 +12,5 @@ def main():
 
 # No es necesario el bloque para ejecutar Flask directamente
 # ya que Gunicorn se encargará de ejecutar la aplicación.
-#if __name__ == "__main__":
-#    pass  # No se necesita ejecutar Flask directamente aquí
 if __name__ == "__main__":
-     sample.run(host="0.0.0.0", port=5050)
+    pass  # No se necesita ejecutar Flask directamente aquí
